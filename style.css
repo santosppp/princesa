@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('WhatsApp\ Image\ 2025-04-19\ at\ 22.21.09\ \(1\)\ -\ Copia.jpeg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: #333; /* Cor do texto */
+    text-align: center;
+    padding: 20px; /* Adiciona espaço ao redor do conteúdo */
+    margin: 0;
+    height: 100vh; /* Garante que o body tenha altura total da viewport */
+}
+
+h1 {
+    color: #e63946;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para melhor legibilidade */
+}
+
+p {
+    font-size: 0.5em;
+    margin: 10px 0;
+    color: white; /* Cor do texto */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d62839;
+}
+
+video {
+    max-width: 200px; /* Define uma largura máxima de 80% da largura do contêiner */
+    height: 350px; /* Mantém a proporção do vídeo */
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 20px 0; /* Adiciona margem acima e abaixo do vídeo */
+    align-items: center;
+}
+
+.section {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .button {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+}
